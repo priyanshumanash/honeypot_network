@@ -1,0 +1,8 @@
+# The honeypot itself has NO dependencies -- asyncio, sqlite3 and the rest
+# are standard library. These are optional.
+
+# The read-only dashboard (python -m src.app)
+Flask>=3.0
+
+# Test runner. The tests also run with plain python.
+pytest>=7.4
